@@ -1,0 +1,54 @@
+input{
+    background: url(../img/search-icon.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+ 
+}
+.search:hover{
+    width: 200px;
+    transition-delay: 0ms;
+    transition-duration: 1s;
+    border: solid 1px grey;
+    border-radius: 4px;
+}
+.box{
+    width: 600px;
+    height: 600px;
+    border: solid 1px black;
+    position: relative;
+}
+.box-1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box-2{
+    width: 80px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.box-3{
+    width: 80px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+}
+.box-4{
+    width: 80px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
