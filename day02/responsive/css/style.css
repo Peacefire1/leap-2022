@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+}
+@media only screen and (max-width:1024px) {
+    body::before{
+        background-color: black;
+        content: "1024px";
+        margin-left: 100px;
+    }
+
+}
+@media only screen and (max-width:760px) {
+    body::before{
+        background-color: red;
+        mix-blend-mode: multiply;
+        content:"asdasdass";
+    }
+}
