@@ -14,7 +14,7 @@ body{
 @media only screen and (max-width:760px) {
     body::before{
         background-color: red;
-        mix-blend-mode: multiply;
+
         content:"asdasdass";
     }
 }
