@@ -1,0 +1,14 @@
+.list-group-item{
+    display: none;
+
+}
+
+.list-group:hover {
+    background-color: aqua;
+    display: block;
+}
+.bi:hover .list-group-item{
+    background-color: aqua;
+    display: block;
+
+}
