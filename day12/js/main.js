@@ -119,6 +119,8 @@ console.log(Number.isInteger(Number("12123123")));
 
 const registerNumber = prompt ("Register Number");
 
+
+
 if (registerNumber.length == 10 && Number.isInteger && Number){
     alert("The length of register number is correct")
 }else{
