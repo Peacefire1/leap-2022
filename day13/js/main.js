@@ -138,7 +138,7 @@ let count = 0;
 
 let sum = 0;
 
-while(count <= max){
+while(count < max){
     count = count + 1;
     sum = sum +count;
     
