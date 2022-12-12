@@ -49,4 +49,8 @@ let newTeacher = Object.create({
 
 })
 
-console.log(newTeacher)
+console.log(newTeacher);
+
+Object.assign({
+    
+}, newTeacher)
