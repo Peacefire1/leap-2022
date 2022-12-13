@@ -48,12 +48,12 @@ let registerButton = document.querySelector("#register");
 registerButton.disabled=true;
 
 
-let tests = document.getElementById("tests");
-console.log(tests);
+// let tests = document.getElementById("tests");
+// console.log(tests);
 
 function changeBackgroundColorGreenAndRed () {
-    test1.style = "background-color: green"
-    test2.style = "background-color: red"
+    test1.style = "background-color: green; display:block"
+    test2.style = "background-color: red; display:block"
     }
 
     tests.addEventListener("click",changeBackgroundColorGreenAndRed);
